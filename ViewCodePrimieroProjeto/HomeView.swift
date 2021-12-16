@@ -13,7 +13,6 @@ final class HomeView: UIView {
         let view = UIButton(frame: .zero)
         view.backgroundColor = .red
         view.setTitle("Botão", for: .normal)
-        view.translatesAutoresizingMaskIntoConstraints = false
         return view
     }()
     
@@ -36,10 +35,12 @@ extension HomeView: CodeView {
     
     // Configurar constraints
     func setupConstraints() {
-        button.leadingAnchor.constraint(equalTo: self.leadingAnchor, constant: 20).isActive = true
-        button.trailingAnchor.constraint(equalTo: self.trailingAnchor, constant: -20).isActive = true
-        button.heightAnchor.constraint(equalToConstant: 50).isActive = true
-        button.bottomAnchor.constraint(equalTo: self.bottomAnchor, constant: -40).isActive = true
+        button.snp.makeConstraints { make in
+            make.left.equalToSuperview().offset(20)
+            make.right.equalToSuperview().inset(20)
+            make.height.equalTo(50)
+            make.bottom.equalToSuperview().inset(40)
+        }
     }
     
     // Setup adicional
