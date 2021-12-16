@@ -9,19 +9,21 @@
 /* Begin PBXBuildFile section */
 		A31DCC5E276B8A0A006FAA6D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DCC5D276B8A0A006FAA6D /* AppDelegate.swift */; };
 		A31DCC60276B8A0A006FAA6D /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DCC5F276B8A0A006FAA6D /* SceneDelegate.swift */; };
-		A31DCC62276B8A0A006FAA6D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DCC61276B8A0A006FAA6D /* ViewController.swift */; };
+		A31DCC62276B8A0A006FAA6D /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DCC61276B8A0A006FAA6D /* HomeViewController.swift */; };
 		A31DCC67276B8A0C006FAA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31DCC66276B8A0C006FAA6D /* Assets.xcassets */; };
 		A31DCC6A276B8A0C006FAA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31DCC68276B8A0C006FAA6D /* LaunchScreen.storyboard */; };
+		A31DCC72276B9133006FAA6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DCC71276B9133006FAA6D /* HomeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		A31DCC5A276B8A0A006FAA6D /* ViewCodePrimieroProjeto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ViewCodePrimieroProjeto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A31DCC5D276B8A0A006FAA6D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		A31DCC5F276B8A0A006FAA6D /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		A31DCC61276B8A0A006FAA6D /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A31DCC61276B8A0A006FAA6D /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		A31DCC66276B8A0C006FAA6D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A31DCC69276B8A0C006FAA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A31DCC6B276B8A0C006FAA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A31DCC71276B9133006FAA6D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,7 +40,7 @@
 		A31DCC51276B8A0A006FAA6D = {
 			isa = PBXGroup;
 			children = (
-				A31DCC5C276B8A0A006FAA6D /* ViewCode Primiero Projeto */,
+				A31DCC5C276B8A0A006FAA6D /* ViewCodePrimieroProjeto */,
 				A31DCC5B276B8A0A006FAA6D /* Products */,
 			);
 			sourceTree = "<group>";
@@ -51,17 +53,18 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		A31DCC5C276B8A0A006FAA6D /* ViewCode Primiero Projeto */ = {
+		A31DCC5C276B8A0A006FAA6D /* ViewCodePrimieroProjeto */ = {
 			isa = PBXGroup;
 			children = (
 				A31DCC5D276B8A0A006FAA6D /* AppDelegate.swift */,
 				A31DCC5F276B8A0A006FAA6D /* SceneDelegate.swift */,
-				A31DCC61276B8A0A006FAA6D /* ViewController.swift */,
+				A31DCC61276B8A0A006FAA6D /* HomeViewController.swift */,
+				A31DCC71276B9133006FAA6D /* HomeView.swift */,
 				A31DCC66276B8A0C006FAA6D /* Assets.xcassets */,
 				A31DCC68276B8A0C006FAA6D /* LaunchScreen.storyboard */,
 				A31DCC6B276B8A0C006FAA6D /* Info.plist */,
 			);
-			path = "ViewCode Primiero Projeto";
+			path = ViewCodePrimieroProjeto;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -134,7 +137,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A31DCC62276B8A0A006FAA6D /* ViewController.swift in Sources */,
+				A31DCC62276B8A0A006FAA6D /* HomeViewController.swift in Sources */,
+				A31DCC72276B9133006FAA6D /* HomeView.swift in Sources */,
 				A31DCC5E276B8A0A006FAA6D /* AppDelegate.swift in Sources */,
 				A31DCC60276B8A0A006FAA6D /* SceneDelegate.swift in Sources */,
 			);

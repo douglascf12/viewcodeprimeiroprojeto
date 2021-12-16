@@ -1,5 +1,5 @@
 //
-//  ViewController.swift
+//  HomeViewController.swift
 //  ViewCode Primiero Projeto
 //
 //  Created by Douglas Cardoso on 16/12/21.
@@ -7,12 +7,12 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HomeViewController: UIViewController {
+    
+    let homeView = HomeView()
     
     override func loadView() {
-        let view = UIView(frame: UIScreen.main.bounds)
-        view.backgroundColor = .red
-        self.view = view
+        self.view = homeView
     }
 
     override func viewDidLoad() {
