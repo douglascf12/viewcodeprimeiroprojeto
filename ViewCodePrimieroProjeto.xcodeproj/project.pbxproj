@@ -13,6 +13,7 @@
 		A31DCC67276B8A0C006FAA6D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A31DCC66276B8A0C006FAA6D /* Assets.xcassets */; };
 		A31DCC6A276B8A0C006FAA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31DCC68276B8A0C006FAA6D /* LaunchScreen.storyboard */; };
 		A31DCC72276B9133006FAA6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DCC71276B9133006FAA6D /* HomeView.swift */; };
+		A31DCC74276B997B006FAA6D /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DCC73276B997B006FAA6D /* CodeView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		A31DCC69276B8A0C006FAA6D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A31DCC6B276B8A0C006FAA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A31DCC71276B9133006FAA6D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
+		A31DCC73276B997B006FAA6D /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +62,7 @@
 				A31DCC5F276B8A0A006FAA6D /* SceneDelegate.swift */,
 				A31DCC61276B8A0A006FAA6D /* HomeViewController.swift */,
 				A31DCC71276B9133006FAA6D /* HomeView.swift */,
+				A31DCC73276B997B006FAA6D /* CodeView.swift */,
 				A31DCC66276B8A0C006FAA6D /* Assets.xcassets */,
 				A31DCC68276B8A0C006FAA6D /* LaunchScreen.storyboard */,
 				A31DCC6B276B8A0C006FAA6D /* Info.plist */,
@@ -140,6 +143,7 @@
 				A31DCC62276B8A0A006FAA6D /* HomeViewController.swift in Sources */,
 				A31DCC72276B9133006FAA6D /* HomeView.swift in Sources */,
 				A31DCC5E276B8A0A006FAA6D /* AppDelegate.swift in Sources */,
+				A31DCC74276B997B006FAA6D /* CodeView.swift in Sources */,
 				A31DCC60276B8A0A006FAA6D /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -283,7 +287,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A8HRA678XW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ViewCode Primiero Projeto/Info.plist";
+				INFOPLIST_FILE = ViewCodePrimieroProjeto/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
@@ -311,7 +315,7 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = A8HRA678XW;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "ViewCode Primiero Projeto/Info.plist";
+				INFOPLIST_FILE = ViewCodePrimieroProjeto/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
