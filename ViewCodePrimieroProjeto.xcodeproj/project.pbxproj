@@ -14,6 +14,7 @@
 		A31DCC6A276B8A0C006FAA6D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A31DCC68276B8A0C006FAA6D /* LaunchScreen.storyboard */; };
 		A31DCC72276B9133006FAA6D /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DCC71276B9133006FAA6D /* HomeView.swift */; };
 		A31DCC74276B997B006FAA6D /* CodeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A31DCC73276B997B006FAA6D /* CodeView.swift */; };
+		A3C35B1A276E4B1E0098EC1D /* GridBoxView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A3C35B19276E4B1E0098EC1D /* GridBoxView.swift */; };
 		A9F59D6EBCF079F9B4FF6D06 /* Pods_ViewCodePrimieroProjeto.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 57ACBCE3F3B234D93A3D95D9 /* Pods_ViewCodePrimieroProjeto.framework */; };
 /* End PBXBuildFile section */
 
@@ -30,6 +31,7 @@
 		A31DCC6B276B8A0C006FAA6D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A31DCC71276B9133006FAA6D /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		A31DCC73276B997B006FAA6D /* CodeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CodeView.swift; sourceTree = "<group>"; };
+		A3C35B19276E4B1E0098EC1D /* GridBoxView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridBoxView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,7 +52,6 @@
 				9E124DB45670566ECD4D9643 /* Pods-ViewCodePrimieroProjeto.debug.xcconfig */,
 				0FCDF3F5528877D7AA805611 /* Pods-ViewCodePrimieroProjeto.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -88,6 +89,7 @@
 				A31DCC61276B8A0A006FAA6D /* HomeViewController.swift */,
 				A31DCC71276B9133006FAA6D /* HomeView.swift */,
 				A31DCC73276B997B006FAA6D /* CodeView.swift */,
+				A3C35B19276E4B1E0098EC1D /* GridBoxView.swift */,
 				A31DCC66276B8A0C006FAA6D /* Assets.xcassets */,
 				A31DCC68276B8A0C006FAA6D /* LaunchScreen.storyboard */,
 				A31DCC6B276B8A0C006FAA6D /* Info.plist */,
@@ -209,6 +211,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A3C35B1A276E4B1E0098EC1D /* GridBoxView.swift in Sources */,
 				A31DCC62276B8A0A006FAA6D /* HomeViewController.swift in Sources */,
 				A31DCC72276B9133006FAA6D /* HomeView.swift in Sources */,
 				A31DCC5E276B8A0A006FAA6D /* AppDelegate.swift in Sources */,

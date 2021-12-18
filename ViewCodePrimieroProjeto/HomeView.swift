@@ -27,7 +27,6 @@ final class HomeView: UIView {
 }
 
 extension HomeView: CodeView {
-    
     // Adicionar view
     func buildViewHierarchy() {
         addSubview(button)
